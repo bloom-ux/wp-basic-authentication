@@ -62,6 +62,11 @@ class WPBA_Basic_Authentication
      */
     public function basic_auth_handler()
     {
+
+        if ( defined('WP_CLI') && WP_CLI ) {
+            return;
+        }
+
         $enable = $this->options['enable'] ?? 0;
         $username = $this->options['username'] ?? '';
         $password = $this->options['password'] ?? '';
