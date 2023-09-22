@@ -1,0 +1,13 @@
+{
+    "name": "bloom-ux/wp-basic-authentication",
+    "description": "Enable HTTP basic authentication for a WordPress site",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "NuttTaro",
+            "email": "nutttaro@outlook.com"
+        }
+    ],
+    "require": {}
+}
